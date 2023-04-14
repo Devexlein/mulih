@@ -8,6 +8,8 @@
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="./js/main.js" defer></script>
 </head>
 
 <body>
@@ -68,7 +70,7 @@
                             <button class="active" type="button">Buy</button>
                             <button type="button">Rent</button>
                         </div>
-                        <div class="tabs__content-item active">
+                        <div class="tabs__content-item">
                             <form action="#" class="tabs__search-form">
                                 <div class="tabs__search-group">
                                     <div class="dropdown">
@@ -115,10 +117,8 @@
                                         <div class="dropdown__title">Location</div>
                                         <div class="dropdown__inner">
                                             <select name="location" id="location">
-                                                <option class="dropdown__item" value="Bogor">Bogor, Jawa Barat</option>
                                                 <option class="dropdown__item" value="Moscow">Moscow, Russia</option>
-                                                <option class="dropdown__item" value="Kirow">Kirow, Russia</option>
-                                                <option class="dropdown__item" value="Saratow">Saratow, Russia</option>
+                                                <option class="dropdown__item" value="Bogor">Bogor, Jawa Barat</option>
                                             </select>
                                         </div>
                                     </div>
@@ -126,8 +126,8 @@
                                         <div class="dropdown__title">Type</div>
                                         <div class="dropdown__inner">
                                             <select name="location" id="location">
-                                                <option class="dropdown__item" value="Home">Home</option>
                                                 <option class="dropdown__item" value="Tanhouse">Tanhouse</option>
+                                                <option class="dropdown__item" value="Home">Home</option>
                                                 <option class="dropdown__item" value="Flat">Flat</option>
                                                 <option class="dropdown__item" value="Other">Other</option>
                                             </select>
@@ -137,10 +137,10 @@
                                         <div class="dropdown__title">Price Range</div>
                                         <div class="dropdown__inner">
                                             <select name="location" id="location">
+                                                <option class="dropdown__item" value="premium">Premium</option>
                                                 <option class="dropdown__item" value="up to $200">Up to $200</option>
                                                 <option class="dropdown__item" value="200-350">$200-$350</option>
                                                 <option class="dropdown__item" value="350-500">$350-$500</option>
-                                                <option class="dropdown__item" value="premium">Premium</option>
                                             </select>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@
                 </div>
             </section>
 
-            <section class="recomendations">
+            <section id="property" class="recomendations">
                 <div class="recomendations__container">
                     <div class="recomendations__head">
                         <div class="recomendations__desc-box desc-box">
@@ -203,7 +203,7 @@
                 </div>
             </section>
 
-            <section id="property" class="advantages">
+            <section class="advantages">
                 <div class="advantages__container">
                     <div class="advantages__desc-box desc-box">
                         <span class="recomendations__heading heading-section">OUR ADVANTE</span>

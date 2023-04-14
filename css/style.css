@@ -86,6 +86,10 @@
    padding: 0px 15px;
 }
 
+.hide {
+   display: none;
+}
+
 .logo {
    display: flex;
    align-items: center;
@@ -317,6 +321,7 @@ main {
    padding-top: var(--gutterLg, 40px);
    padding-bottom: var(--gutter7Sm, 112px);
    position: relative;
+   overflow: hidden;
    z-index: 1;
 }
 
@@ -387,14 +392,6 @@ main {
 .tabs__nav button.active {
    color: var(--accent-color, #69B99D);
    background-color: var(--bg-color, #FEFEFF);
-}
-
-.tabs__content-item {
-   display: none;
-}
-
-.tabs__content-item.active {
-   display: block;
 }
 
 .tabs__search-form {
