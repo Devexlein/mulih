@@ -67,7 +67,7 @@
 
 .main {
    min-height: 100%;
-   /* overflow: hidden; */
+   overflow: hidden;
    display: flex;
    flex-direction: column;
 
@@ -78,7 +78,6 @@
    letter-spacing: 0.0025em;
    color: var(--primary-text-color, #73788C);
    background-color: var(--main-bg-color, #F5F5F5);
-   z-index: -2;
 }
 
 [class*="__container"] {
@@ -318,6 +317,7 @@ main {
    padding-top: var(--gutterLg, 40px);
    padding-bottom: var(--gutter7Sm, 112px);
    position: relative;
+   z-index: 1;
 }
 
 .welcome__image {
