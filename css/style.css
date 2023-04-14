@@ -65,7 +65,12 @@
    --gutter3Lg: calc(var(--gutter) * 15);
 }
 
-body {
+.main {
+   min-height: 100%;
+   /* overflow: hidden; */
+   display: flex;
+   flex-direction: column;
+
    font-family: var(--main-font-family, 'Poppins'), sans-serif;
    font-size: 16px;
    font-weight: 400;
@@ -73,13 +78,7 @@ body {
    letter-spacing: 0.0025em;
    color: var(--primary-text-color, #73788C);
    background-color: var(--main-bg-color, #F5F5F5);
-}
-
-.main {
-   min-height: 100%;
-   overflow: hidden;
-   display: flex;
-   flex-direction: column;
+   z-index: -2;
 }
 
 [class*="__container"] {
@@ -324,7 +323,7 @@ main {
 .welcome__image {
    position: absolute;
    right: 0;
-   bottom: -75px;
+   bottom: -50px;
    transform: matrix(-1, 0, 0, 1, 0, 0) translateX(-40px);
    -o-object-fit: cover;
    object-fit: cover;
@@ -332,9 +331,21 @@ main {
    z-index: -1;
 }
 
-@media (min-width: 2355px) {
+@media (min-width: 1500px) {
    .welcome__image {
-      max-width: 1320px;
+      max-width: 58%;
+   }
+}
+
+@media (min-width: 1750px) {
+   .welcome__image {
+      max-width: 950px;
+   }
+}
+
+@media (min-width: 2000px) {
+   .welcome__image {
+      max-width: 1050px;
    }
 }
 

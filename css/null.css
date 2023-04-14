@@ -8,6 +8,10 @@
    box-sizing: border-box;
 }
 
+.maketforfigma p {
+   margin: 10.85px 0;
+}
+
 
 ul[role='list'],
 ol[role='list'] {
