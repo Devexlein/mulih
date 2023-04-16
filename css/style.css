@@ -575,6 +575,8 @@ select:focus {
 }
 
 .advantages__icon {
+   fill-rule: evenodd;
+   fill: var(--accent-color, #69B99D);
    margin-bottom: var(--gutterSm, 16px);
 }
 
@@ -672,6 +674,7 @@ select:focus {
    display: flex;
    -moz-column-gap: var(--gutterXsm, 4px);
    column-gap: var(--gutterXsm, 4px);
+   fill: var(--accent-color, #69B99D);
 }
 
 .rating__text {
@@ -751,8 +754,8 @@ select:focus {
    transform: translateY(-10px);
 }
 
-.feedbacks__item img {
-   width: 42px;
+.feedbacks__item svg {
+   fill: var(--main-bg-color, #F5F5F5);
 }
 
 .feedbacks__content {
@@ -894,6 +897,7 @@ select:focus {
    align-items: center;
    width: 40px;
    height: 40px;
+   fill-rule: evenodd;
    fill: var(--social-icon-fill, #29CDB5);
    background: var(--social-icon-bg, #f8f9f9);
    border: 1px solid var(--social-icon-bg, #f8f9f9);
