@@ -57,9 +57,10 @@
         <main>
             <section class="welcome">
                 <div class="welcome__container">
-                    <div class="welcome__image">
+                    <picture class="welcome__image">
+                        <source srcset="./img/welcome/house.webp" type="image/webp">
                         <img src="./img/welcome/house.png" alt="Red brick house with wood trim">
-                    </div>
+                    </picture>
                     <div class="welcome__content desc-box">
                         <span class="welcome__heading heading-section">REAL ESTATE</span>
                         <h1 class="welcome__title title-section">Let's hunt for your dream residence</h1>
@@ -76,7 +77,7 @@
                                     <div class="dropdown">
                                         <div class="dropdown__title">Location</div>
                                         <div class="dropdown__inner">
-                                            <select name="location" id="location">
+                                            <select name="location-buy" id="location-buy">
                                                 <option class="dropdown__item" value="Bogor">Bogor, Jawa Barat</option>
                                                 <option class="dropdown__item" value="Moscow">Moscow, Russia</option>
                                                 <option class="dropdown__item" value="Kirow">Kirow, Russia</option>
@@ -87,7 +88,7 @@
                                     <div class="dropdown">
                                         <div class="dropdown__title">Type</div>
                                         <div class="dropdown__inner">
-                                            <select name="location" id="location">
+                                            <select name="type-buy" id="type-buy">
                                                 <option class="dropdown__item" value="Home">Home</option>
                                                 <option class="dropdown__item" value="Tanhouse">Tanhouse</option>
                                                 <option class="dropdown__item" value="Flat">Flat</option>
@@ -98,7 +99,7 @@
                                     <div class="dropdown">
                                         <div class="dropdown__title">Price Range</div>
                                         <div class="dropdown__inner">
-                                            <select name="location" id="location">
+                                            <select name="price-buy" id="price-buy">
                                                 <option class="dropdown__item" value="up to $200">Up to $200</option>
                                                 <option class="dropdown__item" value="200-350">$200-$350</option>
                                                 <option class="dropdown__item" value="350-500">$350-$500</option>
@@ -116,7 +117,7 @@
                                     <div class="dropdown">
                                         <div class="dropdown__title">Location</div>
                                         <div class="dropdown__inner">
-                                            <select name="location" id="location">
+                                            <select name="location-rent" id="location-rent">
                                                 <option class="dropdown__item" value="Moscow">Moscow, Russia</option>
                                                 <option class="dropdown__item" value="Bogor">Bogor, Jawa Barat</option>
                                             </select>
@@ -125,7 +126,7 @@
                                     <div class="dropdown">
                                         <div class="dropdown__title">Type</div>
                                         <div class="dropdown__inner">
-                                            <select name="location" id="location">
+                                            <select name="type-rent" id="type-rent">
                                                 <option class="dropdown__item" value="Tanhouse">Tanhouse</option>
                                                 <option class="dropdown__item" value="Home">Home</option>
                                                 <option class="dropdown__item" value="Flat">Flat</option>
@@ -136,7 +137,7 @@
                                     <div class="dropdown">
                                         <div class="dropdown__title">Price Range</div>
                                         <div class="dropdown__inner">
-                                            <select name="location" id="location">
+                                            <select name="price-rent" id="price-rent">
                                                 <option class="dropdown__item" value="premium">Premium</option>
                                                 <option class="dropdown__item" value="up to $200">Up to $200</option>
                                                 <option class="dropdown__item" value="200-350">$200-$350</option>
@@ -164,9 +165,10 @@
                     </div>
                     <div class="recomendations__cards">
                         <div class="recomendations__item card">
-                            <div class="card__image">
+                            <picture class="card__image">
+                                <source srcset="./img/recomendations/1.webp" type="image/webp">
                                 <img src="./img/recomendations/1.jpg" alt="Large house with white walls in Perum griya asri">
-                            </div>
+                            </picture>
                             <h3 class="card__title">Perum griya asri</h3>
                             <p class="card__location">Bogor, Jawa Barat</p>
                             <div class="card__details">
@@ -176,9 +178,10 @@
                             <button type="submit" class="card__btn btn btn--border-color">Send Inquiry</button>
                         </div>
                         <div class="recomendations__item card">
-                            <div class="card__image">
+                            <picture class="card__image">
+                                <source srcset="./img/recomendations/2.webp" type="image/webp">
                                 <img src="./img/recomendations/2.jpg" alt="Large white brick house with white walls in Perum kencana asri">
-                            </div>
+                            </picture>
                             <h3 class="card__title">Perum kencana asri</h3>
                             <p class="card__location">Bogor, Jawa Barat</p>
                             <div class="card__details">
@@ -188,9 +191,10 @@
                             <button type="submit" class="card__btn btn btn--border-color">Send Inquiry</button>
                         </div>
                         <div class="recomendations__item card">
-                            <div class="card__image">
+                            <picture class="card__image">
+                                <source srcset="./img/recomendations/3.webp" type="image/webp">
                                 <img src="./img/recomendations/3.jpg" alt="Large white brick house with white walls in Perum rakjel elit">
-                            </div>
+                            </picture>
                             <h3 class="card__title">Perum rakjel elit</h3>
                             <p class="card__location">Bogor, Jawa Barat</p>
                             <div class="card__details">
@@ -247,9 +251,10 @@
             <section id="about" class="about">
                 <div class="about__container">
                     <div class="about__content-left">
-                        <div class="about__image">
+                        <picture class="about__image">
+                            <source srcset="./img/about/about-bg.webp" type="image/webp">
                             <img src="./img/about/about-bg.jpg" alt="Hall with fireplace and large windows">
-                        </div>
+                        </picture>
                         <div class="about__rating-box rating">
                             <span class="rating__checked"></span>
                             <span class="rating__average-mark">4.8</span>
