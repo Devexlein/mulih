@@ -802,7 +802,7 @@ select:focus {
 /* ======= FOOTER ===================================================================================== */
 .footer {
    padding-top: calc(var(--gutter2Lg, 75px) - 5px);
-   padding-bottom: calc(var(--gutter2Lg, 80px) + var(----gutter5Xsm, 20px));
+   padding-bottom: calc(var(--gutter2Lg, 80px) + var(--gutter5Xsm, 20px));
    gap: var(--gutterMd, 24px);
    flex-shrink: 0;
    font-family: var(--footer-font-family);
